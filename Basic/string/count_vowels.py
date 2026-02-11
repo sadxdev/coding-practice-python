@@ -1,7 +1,9 @@
 # Count vowels and consonants in a string
 
+text = input("Enter the text: ")
+
 def count_vowels_consonants(text):
-    vowels="aeiouAEIOU"
+    vowels = "aeiouAEIOU"
     v_count = 0
     c_count = 0
 
@@ -14,9 +16,7 @@ def count_vowels_consonants(text):
 
     return v_count, c_count
 
-text = input("enter the text: ")
-
 vowels, consonants = count_vowels_consonants(text)
 
-print("Vowels: ", vowels)
-print("Consonants: ", consonants)
+print("#Vowels: ", vowels)
+print("#Consonants: ", consonants)

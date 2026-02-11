@@ -1,7 +1,8 @@
 # Check if string is a palindrome
 
-def is_palindrome(s):
-    return s == s[::-1]
+text = input("Enter the text: ")
 
-str = input("Enter any word: ")
-print("The given string ",str, is_palindrome(str))
+def is_palindrome(text):
+    return text == text[::-1]
+
+print(is_palindrome(text))
