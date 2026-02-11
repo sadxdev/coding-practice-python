@@ -2,4 +2,4 @@
 import math
 
 for i in range(1, 10 + 1):
-    print(int(math.pow(i, 2)), end = " ")
+    print(i * i)
